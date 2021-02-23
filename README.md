@@ -1,2 +1,4 @@
 # CrawlSight
-Smart Web Crawler
+
+A Smart Polite Web Crawler
+
