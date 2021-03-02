@@ -1,5 +1,6 @@
 'use strict';
 const Crawler = require("crawler");
+require('dotenv').config();
 const fetchLinks = require('./parser');
 const segregateLinks = require('./segregate');
 
