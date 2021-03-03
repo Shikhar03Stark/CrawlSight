@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const UrlNodeSchema = new mongoose.Schema({
     id : {
-        type : mongoose.SchemaType.ObjectId,
+        type : mongoose.SchemaTypes.ObjectId,
         default : mongoose.Types.ObjectId,
         createIndex : true,
         required : true,
@@ -40,7 +40,7 @@ const UrlNodeSchema = new mongoose.Schema({
         default : [],
         required : true,
     },
-    isVisted : {
+    isVisited : {
         type : Boolean,
         default : false,
         required : true,

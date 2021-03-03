@@ -9,4 +9,8 @@ const handler = mongoose.createConnection(dbUrl,{
     useUnifiedTopology : true,
 });
 
+handler.once('open', () => {
+    console.log(`Database Connected : ${Date.now()}ms`);
+})
+
 module.exports = handler;
